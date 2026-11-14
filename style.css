@@ -1,0 +1,18 @@
+﻿:root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #172033; background: #f4f6fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 40px 20px; }
+    main { max-width: 760px; margin: auto; }
+    h1 { margin: 0 0 8px; font-size: 1.55rem; }
+    .intro { color: #606b80; margin: 0 0 24px; }
+    section { background: white; border: 1px solid #e3e8f1; border-radius: 16px; padding: 24px; margin: 16px 0; box-shadow: 0 8px 24px #192a4410; }
+    section > p { color: #657087; margin: 0 0 18px; }
+    .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+    button, input { font: inherit; border-radius: 9px; padding: 10px 14px; }
+    input { border: 1px solid #cbd3e0; min-width: 210px; }
+    button { border: 0; background: #315fe8; color: white; cursor: pointer; }
+    button:hover { background: #244dcc; }
+    button:focus-visible, input:focus-visible { outline: 3px solid #9db5ff; outline-offset: 2px; }
+    output { display: block; margin-top: 16px; min-height: 1.5em; font-weight: 650; color: #243b80; }
+    #count, #sumResult { margin-top: 16px; color: #243b80; }
+    .hint { font-size: .9rem; color: #778197; }
+    @media (max-width: 520px) { body { padding: 24px 14px; } section { padding: 19px; } .controls { align-items: stretch; } input, .controls button { width: 100%; } }
